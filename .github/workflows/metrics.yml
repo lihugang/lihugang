@@ -25,7 +25,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          user: jasonxue1
+          user: lihugang
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Shanghai
@@ -65,7 +65,7 @@ jobs:
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
           plugin_repositories: yes
-          plugin_repositories_featured: Citrus-Union/Carpet-LMS-Addition, jasonxue1/Carpet-Index
+          plugin_repositories_featured: lihugang/OpenCRHTracker
           plugin_repositories_order: featured, pinned, starred, random
           plugin_wakatime: true
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
